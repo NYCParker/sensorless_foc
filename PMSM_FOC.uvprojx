@@ -413,11 +413,6 @@
               <FilePath>.\FOC_Control\Call_Functions.c</FilePath>
             </File>
             <File>
-              <FileName>Motor_Functions.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\FOC_Control\Motor_Functions.h</FilePath>
-            </File>
-            <File>
               <FileName>INT_ISR.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\FOC_Control\INT_ISR.c</FilePath>
@@ -428,14 +423,24 @@
               <FilePath>.\FOC_Control\PI_Control.c</FilePath>
             </File>
             <File>
-              <FileName>SVPWM.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FOC_Control\SVPWM.c</FilePath>
+              <FileName>Motor_Functions.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\FOC_Control\Motor_Functions.h</FilePath>
+            </File>
+            <File>
+              <FileName>SVPWM.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\FOC_Control\SVPWM.h</FilePath>
             </File>
             <File>
               <FileName>PMSM_FOC.lib</FileName>
               <FileType>4</FileType>
               <FilePath>.\Sensorless_Lib\PMSM_FOC.lib</FilePath>
+            </File>
+            <File>
+              <FileName>..\..\study\XHY\Github\GITHUB\Sensorless_FOC\Sensorless_Lib\SVPWM.lib</FileName>
+              <FileType>4</FileType>
+              <FilePath>$TC_ROOT$\..\..\study\XHY\Github\GITHUB\Sensorless_FOC\Sensorless_Lib\SVPWM.lib</FilePath>
             </File>
           </Files>
         </Group>
