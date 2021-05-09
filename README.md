@@ -1,16 +1,12 @@
-<!-- TOC -->
-
-- [SensorlessFOC](#sensorlessfoc)
-  - [一、介绍](#一介绍)
-  - [二、引脚定义](#二引脚定义)
-  - [三、软件设计](#三软件设计)
-
-<!-- /TOC -->
-#  SensorlessFOC
+- [ SensorlessFOC](#head1)
+	- [ 一、介绍 ](#head2)
+	- [ 二、引脚定义](#head3)
+	- [ 三、软件设计](#head4)
+# <span id="head1"> SensorlessFOC</span>
 感谢陆兵同学 @gitee.com/robbinlu 编写的上位机MotorTest
-##  一、介绍 
+## <span id="head2"> 一、介绍 </span>
 基于 XMC4400F100K512 的PMSM无位置传感器驱动控制程序  
-## 二、引脚定义
+## <span id="head3"> 二、引脚定义</span>
 注：Sensorless FOC 不需要使用位置传感器接口
 + #### A/D采样输入： 
 
@@ -36,7 +32,7 @@
 | :----:| :----: | 
 | P2.2  | P2.5  | 
 
-## 三、软件设计
+## <span id="head4"> 三、软件设计</span>
 * #### 底层驱动 ：  
 1. **CCU8** :  
      - 生成3路带死区的互补的PWM信号  
