@@ -58,5 +58,5 @@
    - 上位机显示
    - 虚拟示波器Flash数据显示
 
-* #### Sensorless 算法：
-  TI ASMO算法 + 二级线性观测器反电势滤波
+Control_Loop_Mode  1：电流单闭环  2：转速电流双闭环   
+Sensorless算法用的是 TI ASMO算法 + 二级线性观测器反电势滤波
